@@ -1,38 +1,39 @@
-.App {
+.Top-bar h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.race-graph-container {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.race-graph-container ul {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.race-graph-container ul li {
+    position: absolute;
+    transition: all 0.5s;
+    left: 0;
+    top: 0;
+    height: 25px;
+    display: flex;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.race-graph-container .race-bar {
+    transition: all 0.4s;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-right: 5px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #ddd;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.race-graph-container .race-bar span {
+    color: #fff;
+    text-shadow: 1px 1px #aaa;
 }
