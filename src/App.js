@@ -188,7 +188,7 @@ export default function App() {
         
         <ChartRace
         data={dataChart} 
-        backgroundColor='#fff'
+        backgroundColor='#fff' 
         width={1000}
         padding={50}
         itemHeight={20}
