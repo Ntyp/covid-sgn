@@ -188,13 +188,13 @@ export default function App() {
         
         <ChartRace
         data={dataChart} 
-        backgroundColor='#000'
+        backgroundColor='#fff'
         width={1000}
         padding={50}
         itemHeight={20}
         gap={12}
-        titleStyle={{ font: 'normal 400 13px Arial', color: '#fff' }}
-        valueStyle={{ font: 'normal 400 11px Arial', color: 'rgba(255,255,255, 0.42)' }}
+        titleStyle={{ font: 'normal 400 13px Arial', color: '#000' }}
+        valueStyle={{ font: 'normal 400 11px Arial', color: '#000' }}
       />
       </center>
       
